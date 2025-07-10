@@ -12,7 +12,7 @@ type Pokemon = {
 
 function App() {
   const [pokemon, setPokemon] = useState<Pokemon>();
-  const url = "http://localhost:3000/api/pokemon?name=charizard"
+  const url = "http://localhost:3000/api/pokemon?name=Venusaur"
 
   useEffect(() => {
     axios.get(url).then((response) => {
@@ -31,11 +31,14 @@ function App() {
 
   return (
     <div className="greet">
-      <div className="greet-japanese">
+      <div className="pokemon-name">
         <h1>{pokemon.name}</h1>
       </div>
-      <div className="greet-english">
+      <div className="pokemon-height">
         <h1>{pokemon.height}</h1>
+      </div>
+      <div className="pokemon-types">
+        <h1>{pokemon.types}</h1>
       </div>
     </div>
   );

@@ -205,3 +205,317 @@ Processing by Api::PokemonController#index as HTML
 Completed 200 OK in 39ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.9ms)
 
 
+Started GET "/api/pokemon?name=pikachu" for 172.25.0.1 at 2025-07-09 15:57:28 +0000
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"pikachu"}
+Completed 200 OK in 84ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 21.8ms)
+
+
+Started GET "/api/pokemon?name=pikachu" for 172.25.0.1 at 2025-07-09 15:57:28 +0000
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"pikachu"}
+Completed 200 OK in 41ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.7ms)
+
+
+Started GET "/api/pokemon?name=bulbasaur" for 172.25.0.1 at 2025-07-09 15:58:50 +0000
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"bulbasaur"}
+Completed 200 OK in 109ms (Views: 1.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 40.3ms)
+
+
+Started GET "/api/pokemon?name=bulbasaur" for 172.25.0.1 at 2025-07-09 15:58:50 +0000
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"bulbasaur"}
+Completed 200 OK in 40ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.2ms)
+
+
+Started GET "/api/pokemon?name=Venusaur" for 172.25.0.1 at 2025-07-09 15:59:00 +0000
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"Venusaur"}
+Completed 200 OK in 61ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 3.4ms)
+
+
+Started GET "/api/pokemon?name=Venusaur" for 172.25.0.1 at 2025-07-09 15:59:00 +0000
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"Venusaur"}
+Completed 200 OK in 41ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+[dotenv] Set [36mGOOGLE_CLIENT_ID[0m and [36mGOOGLE_CLIENT_SECRET[0m
+[dotenv] Loaded [33m.env[0m
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/pokemon?name=Venusaur" for 172.26.0.1 at 2025-07-09 17:20:15 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+OmniAuth::NoSessionError (You must provide a session to use OmniAuth.):
+  
+omniauth (2.1.3) lib/omniauth/strategy.rb:180:in `call!'
+omniauth (2.1.3) lib/omniauth/strategy.rb:169:in `call'
+omniauth (2.1.3) lib/omniauth/builder.rb:44:in `call'
+rack (3.1.16) lib/rack/etag.rb:29:in `call'
+rack (3.1.16) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.16) lib/rack/head.rb:15:in `call'
+activerecord (7.2.2.1) lib/active_record/migration.rb:674:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:31:in `block in call'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:30:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:32:in `call'
+railties (7.2.2.1) lib/rails/rack/logger.rb:41:in `call_app'
+railties (7.2.2.1) lib/rails/rack/logger.rb:29:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:96:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/request_id.rb:33:in `call'
+rack (3.1.16) lib/rack/runtime.rb:24:in `call'
+activesupport (7.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/static.rb:27:in `call'
+rack (3.1.16) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/host_authorization.rb:143:in `call'
+rack-cors (3.0.0) lib/rack/cors.rb:102:in `call'
+railties (7.2.2.1) lib/rails/engine.rb:535:in `call'
+puma (6.6.0) lib/puma/configuration.rb:279:in `call'
+puma (6.6.0) lib/puma/request.rb:99:in `block in handle_request'
+puma (6.6.0) lib/puma/thread_pool.rb:390:in `with_force_shutdown'
+puma (6.6.0) lib/puma/request.rb:98:in `handle_request'
+puma (6.6.0) lib/puma/server.rb:472:in `process_client'
+puma (6.6.0) lib/puma/server.rb:254:in `block in run'
+puma (6.6.0) lib/puma/thread_pool.rb:167:in `block in spawn_thread'
+Started GET "/api/pokemon?name=Venusaur" for 172.26.0.1 at 2025-07-09 17:20:15 +0000
+  
+OmniAuth::NoSessionError (You must provide a session to use OmniAuth.):
+  
+omniauth (2.1.3) lib/omniauth/strategy.rb:180:in `call!'
+omniauth (2.1.3) lib/omniauth/strategy.rb:169:in `call'
+omniauth (2.1.3) lib/omniauth/builder.rb:44:in `call'
+rack (3.1.16) lib/rack/etag.rb:29:in `call'
+rack (3.1.16) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.16) lib/rack/head.rb:15:in `call'
+activerecord (7.2.2.1) lib/active_record/migration.rb:674:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:31:in `block in call'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:30:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:32:in `call'
+railties (7.2.2.1) lib/rails/rack/logger.rb:41:in `call_app'
+railties (7.2.2.1) lib/rails/rack/logger.rb:29:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:96:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/request_id.rb:33:in `call'
+rack (3.1.16) lib/rack/runtime.rb:24:in `call'
+activesupport (7.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/static.rb:27:in `call'
+rack (3.1.16) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/host_authorization.rb:143:in `call'
+rack-cors (3.0.0) lib/rack/cors.rb:102:in `call'
+railties (7.2.2.1) lib/rails/engine.rb:535:in `call'
+puma (6.6.0) lib/puma/configuration.rb:279:in `call'
+puma (6.6.0) lib/puma/request.rb:99:in `block in handle_request'
+puma (6.6.0) lib/puma/thread_pool.rb:390:in `with_force_shutdown'
+puma (6.6.0) lib/puma/request.rb:98:in `handle_request'
+puma (6.6.0) lib/puma/server.rb:472:in `process_client'
+puma (6.6.0) lib/puma/server.rb:254:in `block in run'
+puma (6.6.0) lib/puma/thread_pool.rb:167:in `block in spawn_thread'
+Started GET "/api/pokemon?name=Venusaur" for 172.26.0.1 at 2025-07-09 17:20:16 +0000
+  
+OmniAuth::NoSessionError (You must provide a session to use OmniAuth.):
+  
+omniauth (2.1.3) lib/omniauth/strategy.rb:180:in `call!'
+omniauth (2.1.3) lib/omniauth/strategy.rb:169:in `call'
+omniauth (2.1.3) lib/omniauth/builder.rb:44:in `call'
+rack (3.1.16) lib/rack/etag.rb:29:in `call'
+rack (3.1.16) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.16) lib/rack/head.rb:15:in `call'
+activerecord (7.2.2.1) lib/active_record/migration.rb:674:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:31:in `block in call'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:30:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:32:in `call'
+railties (7.2.2.1) lib/rails/rack/logger.rb:41:in `call_app'
+railties (7.2.2.1) lib/rails/rack/logger.rb:29:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:96:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/request_id.rb:33:in `call'
+rack (3.1.16) lib/rack/runtime.rb:24:in `call'
+activesupport (7.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/static.rb:27:in `call'
+rack (3.1.16) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/host_authorization.rb:143:in `call'
+rack-cors (3.0.0) lib/rack/cors.rb:102:in `call'
+railties (7.2.2.1) lib/rails/engine.rb:535:in `call'
+puma (6.6.0) lib/puma/configuration.rb:279:in `call'
+puma (6.6.0) lib/puma/request.rb:99:in `block in handle_request'
+puma (6.6.0) lib/puma/thread_pool.rb:390:in `with_force_shutdown'
+puma (6.6.0) lib/puma/request.rb:98:in `handle_request'
+puma (6.6.0) lib/puma/server.rb:472:in `process_client'
+puma (6.6.0) lib/puma/server.rb:254:in `block in run'
+puma (6.6.0) lib/puma/thread_pool.rb:167:in `block in spawn_thread'
+Started GET "/api/pokemon?name=Venusaur" for 172.26.0.1 at 2025-07-09 17:20:16 +0000
+  
+OmniAuth::NoSessionError (You must provide a session to use OmniAuth.):
+  
+omniauth (2.1.3) lib/omniauth/strategy.rb:180:in `call!'
+omniauth (2.1.3) lib/omniauth/strategy.rb:169:in `call'
+omniauth (2.1.3) lib/omniauth/builder.rb:44:in `call'
+rack (3.1.16) lib/rack/etag.rb:29:in `call'
+rack (3.1.16) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.16) lib/rack/head.rb:15:in `call'
+activerecord (7.2.2.1) lib/active_record/migration.rb:674:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:31:in `block in call'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:30:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:32:in `call'
+railties (7.2.2.1) lib/rails/rack/logger.rb:41:in `call_app'
+railties (7.2.2.1) lib/rails/rack/logger.rb:29:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:96:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/request_id.rb:33:in `call'
+rack (3.1.16) lib/rack/runtime.rb:24:in `call'
+activesupport (7.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/static.rb:27:in `call'
+rack (3.1.16) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/host_authorization.rb:143:in `call'
+rack-cors (3.0.0) lib/rack/cors.rb:102:in `call'
+railties (7.2.2.1) lib/rails/engine.rb:535:in `call'
+puma (6.6.0) lib/puma/configuration.rb:279:in `call'
+puma (6.6.0) lib/puma/request.rb:99:in `block in handle_request'
+puma (6.6.0) lib/puma/thread_pool.rb:390:in `with_force_shutdown'
+puma (6.6.0) lib/puma/request.rb:98:in `handle_request'
+puma (6.6.0) lib/puma/server.rb:472:in `process_client'
+puma (6.6.0) lib/puma/server.rb:254:in `block in run'
+puma (6.6.0) lib/puma/thread_pool.rb:167:in `block in spawn_thread'
+[dotenv] Set [36mGOOGLE_CLIENT_ID[0m and [36mGOOGLE_CLIENT_SECRET[0m
+[dotenv] Loaded [33m.env[0m
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/pokemon?name=Venusaur" for 172.26.0.1 at 2025-07-09 17:23:40 +0000
+Started GET "/api/pokemon?name=Venusaur" for 172.26.0.1 at 2025-07-09 17:23:40 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::PokemonController#index as HTML
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"Venusaur"}
+  Parameters: {"name"=>"Venusaur"}
+Completed 200 OK in 135ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.1ms)
+
+
+Completed 200 OK in 145ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 5.3ms)
+
+
+Started GET "/api/pokemon?name=Venusaur" for 172.26.0.1 at 2025-07-09 17:23:41 +0000
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"Venusaur"}
+Completed 200 OK in 41ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/api/pokemon?name=Venusaur" for 172.26.0.1 at 2025-07-09 17:23:50 +0000
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"Venusaur"}
+Completed 200 OK in 56ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 6.7ms)
+
+
+Started GET "/api/pokemon?name=Venusaur" for 172.26.0.1 at 2025-07-09 17:23:50 +0000
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"Venusaur"}
+Completed 200 OK in 39ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/gmail" for 172.26.0.1 at 2025-07-09 17:24:05 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/gmail"):
+  
+Started GET "/favicon.ico" for 172.26.0.1 at 2025-07-09 17:24:05 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/gmail" for 172.26.0.1 at 2025-07-09 17:24:55 +0000
+  
+Zeitwerk::NameError (expected file /app/app/controllers/api/gmail_controller.rb to define constant Api::GmailController, but didn't):
+  
+zeitwerk (2.7.3) lib/zeitwerk/loader/callbacks.rb:31:in `on_file_autoloaded'
+zeitwerk (2.7.3) lib/zeitwerk/core_ext/kernel.rb:27:in `require'
+activesupport (7.2.2.1) lib/active_support/inflector/methods.rb:290:in `const_get'
+activesupport (7.2.2.1) lib/active_support/inflector/methods.rb:290:in `constantize'
+activesupport (7.2.2.1) lib/active_support/core_ext/string/inflections.rb:74:in `constantize'
+actionpack (7.2.2.1) lib/action_dispatch/http/request.rb:92:in `controller_class_for'
+actionpack (7.2.2.1) lib/action_dispatch/request/utils.rb:102:in `action_encoding_template'
+actionpack (7.2.2.1) lib/action_dispatch/request/utils.rb:87:in `encode'
+actionpack (7.2.2.1) lib/action_dispatch/request/utils.rb:47:in `set_binary_encoding'
+actionpack (7.2.2.1) lib/action_dispatch/http/parameters.rb:70:in `path_parameters='
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:133:in `block in find_routes'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:126:in `each'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:126:in `find_routes'
+actionpack (7.2.2.1) lib/action_dispatch/journey/router.rb:34:in `serve'
+actionpack (7.2.2.1) lib/action_dispatch/routing/route_set.rb:896:in `call'
+omniauth (2.1.3) lib/omniauth/strategy.rb:202:in `call!'
+omniauth (2.1.3) lib/omniauth/strategy.rb:169:in `call'
+omniauth (2.1.3) lib/omniauth/builder.rb:44:in `call'
+rack-session (2.1.1) lib/rack/session/abstract/id.rb:274:in `context'
+rack-session (2.1.1) lib/rack/session/abstract/id.rb:268:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+rack (3.1.16) lib/rack/etag.rb:29:in `call'
+rack (3.1.16) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.16) lib/rack/head.rb:15:in `call'
+activerecord (7.2.2.1) lib/active_record/migration.rb:674:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:31:in `block in call'
+activesupport (7.2.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/callbacks.rb:30:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/show_exceptions.rb:32:in `call'
+railties (7.2.2.1) lib/rails/rack/logger.rb:41:in `call_app'
+railties (7.2.2.1) lib/rails/rack/logger.rb:29:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/remote_ip.rb:96:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/request_id.rb:33:in `call'
+rack (3.1.16) lib/rack/runtime.rb:24:in `call'
+activesupport (7.2.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/static.rb:27:in `call'
+rack (3.1.16) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.2.2.1) lib/action_dispatch/middleware/host_authorization.rb:143:in `call'
+rack-cors (3.0.0) lib/rack/cors.rb:102:in `call'
+railties (7.2.2.1) lib/rails/engine.rb:535:in `call'
+puma (6.6.0) lib/puma/configuration.rb:279:in `call'
+puma (6.6.0) lib/puma/request.rb:99:in `block in handle_request'
+puma (6.6.0) lib/puma/thread_pool.rb:390:in `with_force_shutdown'
+puma (6.6.0) lib/puma/request.rb:98:in `handle_request'
+puma (6.6.0) lib/puma/server.rb:472:in `process_client'
+puma (6.6.0) lib/puma/server.rb:254:in `block in run'
+puma (6.6.0) lib/puma/thread_pool.rb:167:in `block in spawn_thread'
+Started GET "/api/gmail" for 172.26.0.1 at 2025-07-09 17:26:31 +0000
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+Processing by Api::GmailController#index as HTML
+Completed 500 Internal Server Error in 1152ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 22.9ms)
+
+
+  
+NameError (undefined local variable or method `current_user' for an instance of Api::GmailController):
+  
+app/controllers/api/gmail_controller.rb:4:in `index'
