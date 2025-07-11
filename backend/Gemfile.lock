@@ -372,6 +372,7 @@ DEPENDENCIES
   dotenv-rails
   google-api-client (~> 0.53.0)
   httparty
+  mail
   omniauth-google-oauth2
   pg (~> 1.1)
   puma (>= 5.0)

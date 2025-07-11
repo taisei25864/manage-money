@@ -519,3 +519,149 @@ Completed 500 Internal Server Error in 1152ms (ActiveRecord: 0.0ms (0 queries, 0
 NameError (undefined local variable or method `current_user' for an instance of Api::GmailController):
   
 app/controllers/api/gmail_controller.rb:4:in `index'
+[dotenv] Loaded [33m.env[0m
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/pokemon?name=Venusaur" for 172.27.0.1 at 2025-07-11 04:21:54 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"Venusaur"}
+Completed 200 OK in 148ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 6.6ms)
+
+
+Started GET "/api/pokemon?name=Venusaur" for 172.27.0.1 at 2025-07-11 04:21:54 +0000
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"Venusaur"}
+Completed 200 OK in 61ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 6.8ms)
+
+
+Started GET "/api/gmail" for 172.27.0.1 at 2025-07-11 04:29:20 +0000
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Set [36mGMAIL_ADDRESS[0m and [36mGMAIL_APP_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+Processing by Api::GmailController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 1.3ms)
+
+
+  
+NameError (uninitialized constant Api::GmailController::GmailReader):
+  
+app/controllers/api/gmail_controller.rb:4:in `index'
+Started GET "/api/gmail" for 172.27.0.1 at 2025-07-11 04:30:20 +0000
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+Processing by Api::GmailController#index as HTML
+Completed 204 No Content in 6506ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 120.7ms)
+
+
+[dotenv] Set [36mGMAIL_ADDRESS[0m and [36mGMAIL_APP_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/pokemon?name=Venusaur" for 172.27.0.1 at 2025-07-11 04:35:07 +0000
+Started GET "/api/pokemon?name=Venusaur" for 172.27.0.1 at 2025-07-11 04:35:07 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::PokemonController#index as HTML
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"Venusaur"}
+  Parameters: {"name"=>"Venusaur"}
+Completed 200 OK in 181ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 6.3ms)
+
+
+Completed 200 OK in 202ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 21.3ms)
+
+
+Started GET "/api/pokemon?name=Venusaur" for 172.27.0.1 at 2025-07-11 04:35:07 +0000
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"Venusaur"}
+Completed 200 OK in 48ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/api/gmail" for 172.27.0.1 at 2025-07-11 04:35:12 +0000
+  
+SyntaxError (/app/app/controllers/api/gmail_controller.rb:1: syntax error, unexpected ':', expecting end-of-input
+require: 'dotenv/rails'
+       ^
+):
+  
+app/controllers/api/gmail_controller.rb:1: syntax error, unexpected ':', expecting end-of-input
+Started GET "/api/gmail" for 172.27.0.1 at 2025-07-11 04:35:43 +0000
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+Processing by Api::GmailController#index as HTML
+Completed 204 No Content in 6137ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 165.7ms)
+
+
+Started GET "/api/gmail" for 172.27.0.1 at 2025-07-11 04:36:01 +0000
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+Processing by Api::GmailController#index as HTML
+Completed 204 No Content in 5490ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 13.9ms)
+
+
+[dotenv] Set [36mGMAIL_ADDRESS[0m and [36mGMAIL_APP_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/gmail" for 172.27.0.1 at 2025-07-11 04:36:29 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::GmailController#index as HTML
+Completed 204 No Content in 5639ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 74.1ms)
+
+
+[dotenv] Set [36mGMAIL_ADDRESS[0m and [36mGMAIL_APP_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/pokemon?name=Venusaur" for 172.28.0.1 at 2025-07-11 04:37:29 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"Venusaur"}
+Completed 200 OK in 159ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 11.3ms)
+
+
+Started GET "/api/pokemon?name=Venusaur" for 172.28.0.1 at 2025-07-11 04:37:29 +0000
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"Venusaur"}
+Completed 200 OK in 162ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 29.0ms)
+
+
+Started GET "/api/gmail" for 172.28.0.1 at 2025-07-11 04:37:33 +0000
+Processing by Api::GmailController#index as HTML
+Completed 204 No Content in 6198ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 25.1ms)
+
+
+[dotenv] Set [36mGMAIL_ADDRESS[0m and [36mGMAIL_APP_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/pokemon?name=Venusaur" for 172.30.0.1 at 2025-07-11 04:43:38 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"Venusaur"}
+Completed 200 OK in 116ms (Views: 0.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/api/pokemon?name=Venusaur" for 172.30.0.1 at 2025-07-11 04:43:39 +0000
+Processing by Api::PokemonController#index as HTML
+  Parameters: {"name"=>"Venusaur"}
+Completed 200 OK in 68ms (Views: 0.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 9.1ms)
+
+
+Started GET "/api/gmail" for 172.30.0.1 at 2025-07-11 04:43:42 +0000
+Processing by Api::GmailController#index as HTML
+Completed 204 No Content in 6320ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 27.3ms)
+
+
+Started GET "/api/gmail" for 172.30.0.1 at 2025-07-11 04:44:42 +0000
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+Processing by Api::GmailController#index as */*
+Completed 200 OK in 6045ms (Views: 0.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 60.5ms)
+
+
+Started GET "/api/gmail" for 172.30.0.1 at 2025-07-11 04:45:06 +0000
+Processing by Api::GmailController#index as HTML
+Completed 200 OK in 6194ms (Views: 4.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 14.4ms)
+
+
