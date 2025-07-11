@@ -4,8 +4,15 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server: {            // ←--追加
-    host: true,
+  server: {
+    host: '0.0.0.0',  // ← これも重要！
     port: 5173,
-  }
+    proxy: {
+      '/api': {
+        target: 'http://backend:3000',  // ← Railsサーバに向ける
+        changeOrigin: true,
+        secure: false,
+      },
+    },
+  },
 })

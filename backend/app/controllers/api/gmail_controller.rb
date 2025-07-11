@@ -5,9 +5,9 @@ module Api
         email: ENV['GMAIL_ADDRESS'],
         app_password: ENV['GMAIL_APP_PASSWORD']
       )
-      subjects = reader.fetch_subjects
+      messages = reader.fetch_from_sender("statement@vpass.ne.jp")
 
-      render json: { subjects: subjects }
+      render json: { messages: messages }
     end
   end
 end

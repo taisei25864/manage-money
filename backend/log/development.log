@@ -665,3 +665,54 @@ Processing by Api::GmailController#index as HTML
 Completed 200 OK in 6194ms (Views: 4.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 14.4ms)
 
 
+[dotenv] Set [36mGMAIL_ADDRESS[0m and [36mGMAIL_APP_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mGMAIL_ADDRESS[0m and [36mGMAIL_APP_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/gmail" for 172.30.0.1 at 2025-07-11 16:24:56 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::GmailController#index as */*
+Completed 200 OK in 3066ms (Views: 0.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 11.5ms)
+
+
+[dotenv] Set [36mGMAIL_ADDRESS[0m and [36mGMAIL_APP_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: backend:3000
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: backend:3000
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: backend:3000
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: backend:3000
+[dotenv] Set [36mGMAIL_ADDRESS[0m and [36mGMAIL_APP_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mGMAIL_ADDRESS[0m and [36mGMAIL_APP_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: backend:3000
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked hosts: backend:3000
+Started GET "/api/gmail" for 172.31.0.1 at 2025-07-11 16:34:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::GmailController#index as */*
+Completed 200 OK in 3201ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 12.0ms)
+
+
+[dotenv] Set [36mGMAIL_ADDRESS[0m and [36mGMAIL_APP_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+DEPRECATION WARNING: Dotenv::Railtie is deprecated! Use Dotenv::Rails instead. (called from block in <main> at /app/config/routes.rb:14)
+[dotenv] Loaded [33m.env[0m
+Started GET "/api/gmail" for 192.168.0.3 at 2025-07-11 16:36:24 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::GmailController#index as HTML
+Completed 200 OK in 4118ms (Views: 1.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 15.1ms)
+
+
+Started GET "/api/gmail" for 192.168.0.3 at 2025-07-11 16:36:28 +0000
+Processing by Api::GmailController#index as HTML
+Completed 200 OK in 3983ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 13.3ms)
+
+
