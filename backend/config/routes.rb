@@ -2,7 +2,12 @@ Rails.application.routes.draw do
   namespace :api do
     get 'pokemon', to: 'pokemon#index'
     get '/gmail', to: 'gmail#index'
-    resources :transactions, only: [:index, :create, :show, :update, :destroy]
+    post '/gmail', to: 'gmail#create'
+    resources :transactions, only: [:index, :create, :show, :update, :destroy] do
+      collection do
+        post :from_gmail
+      end
+    end
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
